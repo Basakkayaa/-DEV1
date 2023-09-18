@@ -1,0 +1,76 @@
+body{
+    background-image: url(./image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+*{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.box{
+    width: 328px;
+}
+
+.item{
+    width :300px ;
+    margin-left: 20px;
+}
+
+
+h4{
+    font-size: 14px;
+    color: rgb(215, 196, 196);
+    font-weight: 400px;
+}
+
+.btn{
+    width: 200px;
+    height:25px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15%;
+    color:white;
+    background-color:purple;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:#f7a1b7;
+    transform-origin: 15%;
+}
+
+
+input {
+    border: none; 
+    border-bottom: 1px solid purple; 
+    padding: 4px;
+}
+
+.rounded-checkbox {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid ; 
+    outline: none;
+    cursor: pointer;
+}
+
+.rounded-checkbox:checked {
+    background-color: green;
+}

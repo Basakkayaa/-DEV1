@@ -1,0 +1,77 @@
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+/* margin ******/
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+/*  */
+
+/* padding */
+.p-8{
+    padding: 8px;
+}
+
+
+/*  */
+
+/* font */
+.font-700{
+    font-weight: 700;
+}
+.font-400{
+    font-weight: 400;
+}
+
+/*  */
+
+/* text */
+.text-24{
+    font-size: 24px;
+}
+.text-16{
+    font-size: 16px;
+}
+.text-10{
+    font-size: 10px;
+}
+.text-8{
+    font-size: 8px;
+}
+
+
+
+/* color */
+.color-w{
+    color: rgb(215, 196, 196);
+}
+.color-p{
+    color: purple;
+}
